@@ -2,26 +2,26 @@ package com.iesam.Restaurante.Domain.Models;
 
 public class Pizzas {
 
-    private Integer id;
-    private String nombre;
+    private Integer idPizza;
+    private String nombrePizza;
     private String salsa;
     private String extras;
 
 
-    public Integer getId() {
-        return id;
+    public Integer getIdPizza() {
+        return idPizza;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
+    public void setIdPizza(Integer idPizza) {
+        this.idPizza = idPizza;
     }
 
-    public String getNombre() {
-        return nombre;
+    public String getNombrePizza() {
+        return nombrePizza;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setNombrePizza(String nombrePizza) {
+        this.nombrePizza = nombrePizza;
     }
 
     public String getSalsa() {
