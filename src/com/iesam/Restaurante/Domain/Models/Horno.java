@@ -6,6 +6,7 @@ public class Horno extends Pizzas {
     private String nombre;
     private String marca;
     private String temperatura;
+    private Pizzas pizzas;
 
     public Integer getId() {
         return id;
@@ -38,4 +39,16 @@ public class Horno extends Pizzas {
     public void setTemperatura(String temperatura) {
         this.temperatura = temperatura;
     }
+
+    public Pizzas getPizzasCampera(Campera campera) {
+        return campera;
+    }
+    public Pizzas getPizzasBarbacoa(Barbacoa barbacoa) {
+        return barbacoa;
+    }
+    public Pizzas getPizzasCarbonara(Carbonara carbonara) {
+        return carbonara;
+    }
+
+
 }
