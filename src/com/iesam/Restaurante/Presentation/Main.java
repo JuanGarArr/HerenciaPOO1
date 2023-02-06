@@ -40,7 +40,7 @@ public class Main {
         horno.setNombre("hornoB");
         horno.setTemperatura("300º");
         horno.setIdPizza(1);
-        horno.get
+        horno.getPizzasBarbacoa(barbacoa);
 
 
 
